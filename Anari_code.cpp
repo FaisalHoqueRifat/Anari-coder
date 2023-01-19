@@ -133,24 +133,7 @@ ll uB(vector<ll> &a, ll x)
 }
 void solve()
 {
-  ll n;
-  cin>>n;
-  vector<ll> arr(n);
-  fr(n) cin>>arr[i];
-  sort(all(arr));
-  reverse(all(arr));
-  int cnt = 0;
-  fr(n-1)
-  {
-    if(arr[i] == arr[i+1]) cnt++;
-  }
-  if(cnt == n-1) no;
-  else
-  {
-    yes;
-    fr(n) cout<<arr[i]<<" ";
-    cout<<endl;
-  }
+  
 }
 
 int main()
@@ -169,7 +152,9 @@ int main()
 
 
 /*
-
+size_t found1
+found1 = a.find(s[i])    a is string & we found s[i] in string a
+found1!=std::string::npos
  vector<vector<char>> arr( n , vector<char> (n, 0)); //2d vector declaration
 
 */
